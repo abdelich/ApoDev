@@ -5,6 +5,7 @@ ScriptsOnlyBuild:
     - Movement
     - PlayerJump
     - Shoot
+    - WalkingEffect
     Unity.RenderPipelines.Core.Runtime.dll:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
     - UnityEngine.Rendering.UI.DebugUIHandlerButton
@@ -35,8 +36,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Rendering.Universal.UniversalProjectSettings
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.ShaderGraph.Editor.dll:
-    - UnityEditor.ShaderGraph.Drawing.MaterialGraphEditWindow
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -94,89 +93,91 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11588}
+      Script: {instanceID: 11558}
     - Class: 114
-      Script: {instanceID: 11788}
+      Script: {instanceID: 11696}
     - Class: 114
-      Script: {instanceID: 11980}
+      Script: {instanceID: 11828}
     - Class: 114
-      Script: {instanceID: 12028}
+      Script: {instanceID: 11858}
     - Class: 114
-      Script: {instanceID: 12182}
+      Script: {instanceID: 11966}
     - Class: 114
-      Script: {instanceID: 12186}
+      Script: {instanceID: 11970}
     - Class: 114
-      Script: {instanceID: 12306}
+      Script: {instanceID: 12056}
     - Class: 114
-      Script: {instanceID: 12396}
+      Script: {instanceID: 12108}
     - Class: 114
-      Script: {instanceID: 12636}
+      Script: {instanceID: 12276}
     - Class: 114
-      Script: {instanceID: 12706}
+      Script: {instanceID: 12312}
     - Class: 114
-      Script: {instanceID: 13300}
+      Script: {instanceID: 12718}
     - Class: 114
-      Script: {instanceID: 13400}
+      Script: {instanceID: 12786}
     - Class: 114
-      Script: {instanceID: 13792}
+      Script: {instanceID: 13046}
     - Class: 114
-      Script: {instanceID: 14126}
+      Script: {instanceID: 13284}
     - Class: 114
-      Script: {instanceID: 14202}
+      Script: {instanceID: 13340}
     - Class: 114
-      Script: {instanceID: 14302}
+      Script: {instanceID: 13408}
     - Class: 114
-      Script: {instanceID: 14482}
+      Script: {instanceID: 13532}
     - Class: 114
-      Script: {instanceID: 14940}
+      Script: {instanceID: 13830}
     - Class: 114
-      Script: {instanceID: 14974}
+      Script: {instanceID: 13860}
     - Class: 114
-      Script: {instanceID: 15052}
+      Script: {instanceID: 13920}
     - Class: 114
-      Script: {instanceID: 15216}
+      Script: {instanceID: 14024}
     - Class: 114
-      Script: {instanceID: 15474}
+      Script: {instanceID: 14208}
     - Class: 114
-      Script: {instanceID: 15594}
+      Script: {instanceID: 14286}
     - Class: 114
-      Script: {instanceID: 15622}
+      Script: {instanceID: 14310}
     - Class: 114
-      Script: {instanceID: 15802}
+      Script: {instanceID: 14430}
     - Class: 114
-      Script: {instanceID: 15814}
+      Script: {instanceID: 14440}
     - Class: 114
-      Script: {instanceID: 15846}
+      Script: {instanceID: 14460}
     - Class: 114
-      Script: {instanceID: 15904}
+      Script: {instanceID: 14494}
     - Class: 114
-      Script: {instanceID: 15914}
+      Script: {instanceID: 14502}
     - Class: 114
-      Script: {instanceID: 16412}
+      Script: {instanceID: 14854}
     - Class: 114
-      Script: {instanceID: 16436}
+      Script: {instanceID: 14874}
     - Class: 114
-      Script: {instanceID: 16502}
+      Script: {instanceID: 14918}
     - Class: 114
-      Script: {instanceID: 16534}
+      Script: {instanceID: 14942}
     - Class: 114
-      Script: {instanceID: 16954}
+      Script: {instanceID: 15214}
     - Class: 114
-      Script: {instanceID: 17232}
+      Script: {instanceID: 15428}
     - Class: 114
-      Script: {instanceID: 17314}
+      Script: {instanceID: 15446}
     - Class: 114
-      Script: {instanceID: 17666}
+      Script: {instanceID: 15484}
     - Class: 114
-      Script: {instanceID: 17670}
+      Script: {instanceID: 15720}
     - Class: 114
-      Script: {instanceID: 17760}
+      Script: {instanceID: 15724}
     - Class: 114
-      Script: {instanceID: 17766}
+      Script: {instanceID: 15786}
     - Class: 114
-      Script: {instanceID: 17972}
+      Script: {instanceID: 15790}
     - Class: 114
-      Script: {instanceID: 17978}
+      Script: {instanceID: 15928}
+    - Class: 114
+      Script: {instanceID: 15934}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -986,6 +987,12 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerEnumHistory
   - hash:
       serializedVersion: 2
+      Hash: 12331914c52ce8d4c6d0b70c0db3bb68
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WalkingEffect
+  - hash:
+      serializedVersion: 2
       Hash: d5630f96bd5a6a6eed7e1754c3fb8703
     assemblyName: Unity.Postprocessing.Runtime.dll
     namespaceName: UnityEngine.Rendering.PostProcessing
@@ -1179,4 +1186,4 @@ ScriptsOnlyBuild:
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: D:/Work/Projects/Games/done/Apocalypse/Apocalypse.exe
+  playerPath: D:/Work/Projects/Apo/Apocalypse.exe
